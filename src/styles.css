@@ -9,9 +9,9 @@ body {
 }
 .container {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 90px auto;
   background: white;
-  padding: 20px;
+  padding: 70px;
   border-radius: 10px;
   box-shadow: 8px 8px 8px rgb(238, 156, 167);
 }
@@ -47,10 +47,14 @@ h2 {
 }
 footer {
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0 120px 0;
   font-weight: bold;
 }
 footer a {
+  text-decoration: none;
+  color: rgb(227, 15, 160);
+}
+.home-link {
   text-decoration: none;
   color: rgb(227, 15, 160);
 }
