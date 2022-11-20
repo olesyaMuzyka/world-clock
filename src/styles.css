@@ -23,7 +23,7 @@ select {
 }
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
 }
 h2 {
@@ -57,4 +57,21 @@ footer a {
 .home-link {
   text-decoration: none;
   color: rgb(227, 15, 160);
+}
+@media (max-width: 960px) {
+  .container {
+    max-width: 400px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .time {
+    font-size: 27px;
+  }
+  .date {
+    font-size: 15px;
+  }
 }
